@@ -3,4 +3,14 @@ body {
   padding: 0px;
   font-size: 100%; }
 
+.container {
+  width: 800px;
+  margin: auto;
+  padding: 15px;
+  font-size: 1em; }
+
+.logo {
+  float: right;
+  color: gray; }
+
 /*# sourceMappingURL=style.css.map */
