@@ -1,18 +1,79 @@
 
 
-body {
+html, body {
     margin: 0px;
     padding: 0px;
+    height: 100%;
+} 
+
+body {
     font-size: 100%;
+    background-image: url("../img/background.jpg");
+    background-color: lightblue;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
+
 .container {
     width: 800px;
     margin: auto;
-    padding: 15px;
+    padding: 0px;
     font-size: 1em;
+    min-height: 100%;
+    position: relative;
 }
 
 .logo {
     float: right;
     color: gray;
+}
+
+header {
+    background-color: #262626;
+    color: lightgray;
+    margin: 0px;
+    //margin-bottom: 0px;
+    padding: 20px;
+    //padding-bottom: 0px;
+}
+navbar {
+    display: block;
+    background-color: #1a1a1a;
+    color: lightgray;
+    margin: 0px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    width: 100%;
+}
+
+navbar li {
+    display: inline-block;
+    list-style-type: none;
+    font-family: Courier New, Courier, monospace;
+    font-weight: bold;
+}
+
+navbar li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+
+section {
+    padding-bottom: 60px;
+}
+section p {
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 3px;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: .60em;
+    height: 60px;
 }
