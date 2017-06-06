@@ -1,6 +1,5 @@
 html, body {
   margin: 0px;
-  padding: 0px;
   height: 100%; }
 
 body {
@@ -13,7 +12,6 @@ body {
 .container {
   width: 800px;
   margin: auto;
-  padding: 0px;
   font-size: 1em;
   min-height: 100%;
   position: relative; }
@@ -25,20 +23,17 @@ body {
 header {
   background-color: #262626;
   color: lightgray;
-  margin: 0px;
   padding: 20px; }
 
 navbar {
   display: block;
   background-color: #1a1a1a;
   color: lightgray;
-  margin: 0px;
-  padding-top: 3px;
-  padding-bottom: 3px;
-  width: 100%; }
+  padding-top: 1px;
+  padding-bottom: 1px; }
 
 navbar li {
-  display: inline-block;
+  display: inline;
   list-style-type: none;
   font-family: Courier New, Courier, monospace;
   font-weight: bold; }
@@ -57,7 +52,7 @@ section p {
 
 footer {
   position: absolute;
-  bottom: 0;
+  bottom: 0px;
   width: 100%;
   background-color: black;
   color: white;
