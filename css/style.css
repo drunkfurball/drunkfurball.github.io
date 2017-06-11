@@ -24,7 +24,8 @@ header {
   background-color: #262626;
   color: lightgray;
   padding: 25px;
-  height: 100px; }
+  height: 100px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
 
 navbar {
   display: block;
@@ -47,10 +48,15 @@ section {
   width: 97%;
   margin: auto; }
 
-section p {
+article {
   background-color: whitesmoke;
-  padding: 25px;
-  border-radius: 3px; }
+  padding: 20px;
+  border-radius: 3px;
+  margin: 10px; }
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: .90em; }
 
 footer {
   position: absolute;
@@ -59,6 +65,7 @@ footer {
   background-color: black;
   color: white;
   text-align: center;
+  font-family: Courier New, Courier, monospace;
   font-size: .60em;
   height: 60px; }
 

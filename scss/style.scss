@@ -29,6 +29,7 @@ header {
     color: lightgray;
     padding: 25px;
     height: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 navbar {
@@ -56,10 +57,16 @@ section {
     margin: auto;
 }
 
-section p {
+article {
     background-color: whitesmoke;
-    padding: 25px;
+    padding: 20px;
     border-radius: 3px;
+    margin: 10px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .90em;
 }
 
 footer {
@@ -69,6 +76,7 @@ footer {
     background-color: black;
     color: white;
     text-align: center;
+    font-family: Courier New, Courier, monospace;
     font-size: .60em;
     height: 60px;
 }
