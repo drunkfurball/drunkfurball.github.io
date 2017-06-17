@@ -1,5 +1,6 @@
 html, body {
   margin: 0px;
+  padding: 0px;
   height: 100%;
   font-size: 100%; }
 
@@ -44,7 +45,7 @@ navbar li a {
   color: whitesmoke; }
 
 section {
-  padding-bottom: 60px;
+  padding-bottom: 80px;
   width: 97%;
   margin: auto; }
 
@@ -67,6 +68,6 @@ footer {
   text-align: center;
   font-family: Courier New, Courier, monospace;
   font-size: .60em;
-  height: 60px; }
+  height: 80px; }
 
 /*# sourceMappingURL=style.css.map */
