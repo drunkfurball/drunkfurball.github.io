@@ -45,7 +45,7 @@ navbar li a {
   color: whitesmoke; }
 
 section {
-  padding-bottom: 80px;
+  padding-bottom: 95px;
   width: 97%;
   margin: auto; }
 
@@ -68,6 +68,6 @@ footer {
   text-align: center;
   font-family: Courier New, Courier, monospace;
   font-size: .60em;
-  height: 80px; }
+  height: 95px; }
 
 /*# sourceMappingURL=style.css.map */
