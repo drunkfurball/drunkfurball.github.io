@@ -70,4 +70,8 @@ footer {
   font-size: .60em;
   height: 95px; }
 
+@media (min-width: 30em) and (max-width: 45em) {
+  header {
+    color: blue; } }
+
 /*# sourceMappingURL=style.css.map */
