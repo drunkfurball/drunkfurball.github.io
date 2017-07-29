@@ -6,7 +6,7 @@ html, body {
 
 body {
   background-image: url("../img/background.jpg");
-  background-color: lightblue;
+  background-color: lightgrey;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
