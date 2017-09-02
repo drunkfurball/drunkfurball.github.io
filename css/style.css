@@ -72,8 +72,14 @@ footer {
   font-size: .60em;
   height: 95px; }
 
-@media (min-width: 30em) and (max-width: 45em) {
+@media (max-width: 599px) {
+  header {
+    color: red; } }
+@media (min-width: 600px) and (max-width: 800px) {
   header {
     color: blue; } }
+@media (min-width: 801px) {
+  header {
+    color: green; } }
 
 /*# sourceMappingURL=style.css.map */
