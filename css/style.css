@@ -12,13 +12,6 @@ body {
   background-size: cover;
   max-height: 100%; }
 
-.container {
-  width: 800px;
-  margin: auto;
-  font-size: 1em;
-  min-height: 100%;
-  position: relative; }
-
 .logo {
   float: right;
   color: gray; }
@@ -26,8 +19,6 @@ body {
 header {
   background-color: #262626;
   color: lightgray;
-  padding: 25px;
-  height: 100px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
 
 navbar {
@@ -72,14 +63,55 @@ footer {
   font-size: .60em;
   height: 95px; }
 
-@media (max-width: 599px) {
+@media (max-width: 640px) {
+  .container {
+    margin: auto;
+    font-size: 2em;
+    min-height: 100%;
+    position: relative; }
+
   header {
-    color: red; } }
-@media (min-width: 600px) and (max-width: 800px) {
+    padding: 25px;
+    height: 164px;
+    font-size: .75em; }
+
+  navbar {
+    position: fixed;
+    bottom: 0px;
+    z-index: 1;
+    font-size: .75em;
+    line-height: 1.5em;
+    text-align: center; }
+
+  section {
+    padding-bottom: 315px; }
+
+  footer {
+    height: 315px;
+    padding: 15px; } }
+@media (min-width: 641px) and (max-width: 1007px) {
+  .container {
+    width: 640px;
+    margin: auto;
+    font-size: 1.5em;
+    min-height: 100%;
+    position: relative; }
+
   header {
+    padding: 25px;
+    height: 100px;
     color: blue; } }
-@media (min-width: 801px) {
+@media (min-width: 1008px) {
+  .container {
+    width: 800px;
+    margin: auto;
+    font-size: 1em;
+    min-height: 100%;
+    position: relative; }
+
   header {
+    padding: 25px;
+    height: 100px;
     color: green; } }
 
 /*# sourceMappingURL=style.css.map */
