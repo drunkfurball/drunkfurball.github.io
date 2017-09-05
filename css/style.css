@@ -16,6 +16,18 @@ body {
   float: right;
   color: gray; }
 
+.menu_toggle {
+  /* Safari */
+  -webkit-transform: rotate(-90deg);
+  /* Firefox */
+  -moz-transform: rotate(-90deg);
+  /* IE */
+  -ms-transform: rotate(-90deg);
+  /* Opera */
+  -o-transform: rotate(-90deg);
+  /* Internet Explorer */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3); }
+
 header {
   background-color: #262626;
   color: lightgray;
@@ -36,11 +48,6 @@ navbar li {
 navbar li a {
   text-decoration: none;
   color: whitesmoke; }
-
-section {
-  padding-bottom: 95px;
-  width: 97%;
-  margin: auto; }
 
 article {
   background-color: whitesmoke;
@@ -83,7 +90,11 @@ footer {
     line-height: 1.5em;
     text-align: center; }
 
+  .menu_toggle {
+    display: none; }
+
   section {
+    width: 100%;
     padding-bottom: 315px; }
 
   footer {
@@ -99,8 +110,26 @@ footer {
 
   header {
     padding: 25px;
-    height: 100px;
-    color: blue; } }
+    height: 164px; }
+
+  navbar {
+    position: fixed;
+    top: 120px;
+    right: 0px;
+    padding: 10px;
+    box-shadow: -5px -5px 5px gray;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    line-height: 2em; }
+
+  navbar li {
+    display: block; }
+
+  section {
+    padding-bottom: 140px; }
+
+  footer {
+    height: 140px; } }
 @media (min-width: 1008px) {
   .container {
     width: 800px;
@@ -112,6 +141,14 @@ footer {
   header {
     padding: 25px;
     height: 100px;
-    color: green; } }
+    color: green; }
+
+  .menu_toggle {
+    display: none; }
+
+  section {
+    padding-bottom: 95px;
+    width: 97%;
+    margin: auto; } }
 
 /*# sourceMappingURL=style.css.map */
