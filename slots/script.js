@@ -44,7 +44,7 @@ function onLoad() {
     for (var i = 0; i < 3; i++) {
         tumblers[i] = new Murphean(tumbler);
         tumblers[i].set();
-        document.getElementById("tblr" + i).innerHTML = "<img src='slots/" + tumblers[i].get() + ".png' alt='" + tumblers[i].get() + "'>";
+        document.getElementById("tblr" + i).innerHTML = "<img src='" + tumblers[i].get() + ".png' alt='" + tumblers[i].get() + "'>";
     }
     document.getElementById("score").innerHTML = score;
 }
@@ -55,7 +55,7 @@ function onClick() {
 
     for (var i = 0; i < 3; i++) {
         tumblers[i].set();
-        document.getElementById("tblr" + i).innerHTML = "<img src='slots/" + tumblers[i].get() + ".png' alt='" + tumblers[i].get() + "'>";
+        document.getElementById("tblr" + i).innerHTML = "<img src='" + tumblers[i].get() + ".png' alt='" + tumblers[i].get() + "'>";
     }
     payout();
     document.getElementById("score").innerHTML = score;
