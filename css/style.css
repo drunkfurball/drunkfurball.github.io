@@ -5,15 +5,13 @@
     box-sizing: border-box;
 }
 
-html {
-}
-
 body {
     font-size: 100%;
 }
 
 #container {
     min-height: 100vh;
+    margin: 0 auto;
 }
 
 #wrapper {
@@ -27,7 +25,7 @@ img {
 }
 
 #profile {
-    display: inline-block;
+    display: block;
     float: left;
     border-radius: 50%;
 }
@@ -38,9 +36,9 @@ img {
 
 .row::after {
     content: "";
-    width: 100%;
+    width: 80%;
     clear: both;
-    display: table;
+    display: block;
 }
 
 header {
@@ -54,7 +52,7 @@ header h1, header h3 {
     margin-left: 80px;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     color: #235e70;
     padding-left: 8px;
 }
